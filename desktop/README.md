@@ -1,0 +1,20 @@
+Config of desktop enviroment
+===
+
+## Software Stacks
+- Display Server: [X Server](https://wiki.archlinux.org/index.php/Xorg)
+- Display Manager: [SDDM](https://wiki.archlinux.org/index.php/SDDM)
+- Window Manager: [i3 wm](https://i3wm.org/)
+- Terminal Emulator: [alacritty](https://github.com/alacritty/alacritty)
+- App Launcher:
+    - [rofi](https://github.com/davatorium/rofi)
+    - [xlunch](http://xlunch.org/)
+- Web Browser: [Google Chrome](https://wiki.archlinux.org/index.php/Xorg)
+- File Browser: [Dolphin](https://wiki.archlinux.org/index.php/Dolphin)
+- Editor: [neovim](https://github.com/neovim/neovim)
+- Screenshot: [teiler](https://github.com/carnager/teiler) 
+- Wallpaper Display: feh
+- Input Method: iBus RIME Iridium-Bopomofo
+- Font:
+    - Icon: [ttf-font-awesome](https://www.archlinux.org/packages/community/any/ttf-font-awesome/)
+- Status bar: [i3blocks](https://vivien.github.io/i3blocks/) [i3blocks-contrib](https://github.com/vivien/i3blocks-contrib)
