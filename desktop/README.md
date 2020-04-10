@@ -13,11 +13,10 @@ Config of desktop enviroment
 - Web Browser: [Google Chrome](https://wiki.archlinux.org/index.php/Xorg)
 - File Browser: [Dolphin](https://wiki.archlinux.org/index.php/Dolphin)
 - Editor: [neovim](https://github.com/neovim/neovim)
-- Screenshot: [teiler](https://github.com/carnager/teiler) 
-- Wallpaper Display: feh
+- Wallpaper Display: [feh](https://wiki.archlinux.org/index.php/feh)
 - Input Method: iBus RIME Iridium-Bopomofo
 - Font:
     - Icon: [ttf-font-awesome](https://www.archlinux.org/packages/community/any/ttf-font-awesome/)
-    - Title & Status Bar: [adobe-source-han-sans-fonts](https://www.archlinux.org/packages/community/any/adobe-source-han-sans-jp-fonts/)
+    - Title & Status Bar: [adobe-source-han-sans-fonts(Source Han Code JP)](https://www.archlinux.org/packages/community/any/adobe-source-han-sans-jp-fonts/)
 - Status Bar: [i3blocks](https://vivien.github.io/i3blocks/) [i3blocks-contrib](https://github.com/vivien/i3blocks-contrib)
 - Screen Capture: [flameshot](https://wiki.archlinux.org/index.php/Flameshot)
