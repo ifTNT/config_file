@@ -17,6 +17,7 @@ Config of desktop enviroment
 - Input Method: iBus RIME Iridium-Bopomofo
 - Font:
     - Icon: [ttf-font-awesome](https://www.archlinux.org/packages/community/any/ttf-font-awesome/)
-    - Title & Status Bar: [adobe-source-han-sans-fonts(Source Han Code JP)](https://www.archlinux.org/packages/community/any/adobe-source-han-sans-jp-fonts/)
+    - Default font: [otf-source-han-code-jp](https://aur.archlinux.org/packages/otf-source-han-code-jp/)
 - Status Bar: [i3blocks](https://vivien.github.io/i3blocks/) [i3blocks-contrib](https://github.com/vivien/i3blocks-contrib)
 - Screen Capture: [flameshot](https://wiki.archlinux.org/index.php/Flameshot)
+- Screen locker: [i3lock-fancy-rapid](https://github.com/yvbbrjdr/i3lock-fancy-rapid)
