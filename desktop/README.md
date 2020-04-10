@@ -11,7 +11,7 @@ Config of desktop enviroment
     - [rofi](https://github.com/davatorium/rofi)
     - [xlunch](http://xlunch.org/)
 - Web Browser: [Google Chrome](https://wiki.archlinux.org/index.php/Xorg)
-- File Browser: [Dolphin](https://wiki.archlinux.org/index.php/Dolphin)
+- File Browser: [Ranger](https://github.com/ranger/ranger)
 - Editor: [neovim](https://github.com/neovim/neovim)
 - Wallpaper Display: [feh](https://wiki.archlinux.org/index.php/feh)
 - Input Method: iBus RIME Iridium-Bopomofo

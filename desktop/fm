@@ -1,0 +1,5 @@
+#Script file for run ranger from rofi.
+#Use alacritty as terminal emulator.
+#!/bin/bash
+
+alacritty -t "File Manager - ranger" -e ranger
