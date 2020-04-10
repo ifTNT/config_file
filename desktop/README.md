@@ -14,7 +14,10 @@ Config of desktop enviroment
 - File Browser: [Ranger](https://github.com/ranger/ranger)
 - Editor: [neovim](https://github.com/neovim/neovim)
 - Wallpaper Display: [feh](https://wiki.archlinux.org/index.php/feh)
-- Input Method: iBus RIME Iridium-Bopomofo
+- Input Method:
+    - [iBus](https://wiki.archlinux.org/index.php/IBus)
+    - [ibus-rime](https://wiki.archlinux.org/index.php/Rime)
+    - [Iridium-Bopomofo](https://github.hsmw.workers.dev/andy0130tw/iridium-bpmf)
 - Font:
     - Icon: [ttf-font-awesome](https://www.archlinux.org/packages/community/any/ttf-font-awesome/)
     - Default font: [otf-source-han-code-jp](https://aur.archlinux.org/packages/otf-source-han-code-jp/)
