@@ -18,6 +18,6 @@ Config of desktop enviroment
 - Input Method: iBus RIME Iridium-Bopomofo
 - Font:
     - Icon: [ttf-font-awesome](https://www.archlinux.org/packages/community/any/ttf-font-awesome/)
-    - Title: adobe-source-code-pro-fonts
-- Status bar: [i3blocks](https://vivien.github.io/i3blocks/) [i3blocks-contrib](https://github.com/vivien/i3blocks-contrib)
-- Screenshot: [flameshot](https://wiki.archlinux.org/index.php/Flameshot)
+    - Title & Status Bar: [adobe-source-han-sans-fonts](https://www.archlinux.org/packages/community/any/adobe-source-han-sans-jp-fonts/)
+- Status Bar: [i3blocks](https://vivien.github.io/i3blocks/) [i3blocks-contrib](https://github.com/vivien/i3blocks-contrib)
+- Screen Capture: [flameshot](https://wiki.archlinux.org/index.php/Flameshot)
