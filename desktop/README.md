@@ -4,6 +4,7 @@ Config of desktop enviroment
 ## Software Stacks
 - Display Server: [X Server](https://wiki.archlinux.org/index.php/Xorg)
 - Display Manager: [SDDM](https://wiki.archlinux.org/index.php/SDDM)
+    - Theme: [archlinux-themes-sddm](https://aur.archlinux.org/packages/archlinux-themes-sddm)
 - Window Manager: [i3 wm](https://i3wm.org/)
 - Terminal Emulator: [alacritty](https://github.com/alacritty/alacritty)
 - App Launcher:
@@ -17,4 +18,6 @@ Config of desktop enviroment
 - Input Method: iBus RIME Iridium-Bopomofo
 - Font:
     - Icon: [ttf-font-awesome](https://www.archlinux.org/packages/community/any/ttf-font-awesome/)
+    - Title: adobe-source-code-pro-fonts
 - Status bar: [i3blocks](https://vivien.github.io/i3blocks/) [i3blocks-contrib](https://github.com/vivien/i3blocks-contrib)
+- Screenshot: [flameshot](https://wiki.archlinux.org/index.php/Flameshot)
