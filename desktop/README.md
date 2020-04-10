@@ -11,7 +11,12 @@ Config of desktop enviroment
     - [rofi](https://github.com/davatorium/rofi)
     - [xlunch](http://xlunch.org/)
 - Web Browser: [Google Chrome](https://wiki.archlinux.org/index.php/Xorg)
-- File Browser: [Ranger](https://github.com/ranger/ranger)
+- File Browser & File Preview:
+    - [Ranger](https://github.com/ranger/ranger)
+    - highlight
+    - mediainfo
+    - poppler
+    - python-chardet
 - Editor: [neovim](https://github.com/neovim/neovim)
 - Wallpaper Display: [feh](https://wiki.archlinux.org/index.php/feh)
 - Input Method:
@@ -24,3 +29,4 @@ Config of desktop enviroment
 - Status Bar: [i3blocks](https://vivien.github.io/i3blocks/) [i3blocks-contrib](https://github.com/vivien/i3blocks-contrib)
 - Screen Capture: [flameshot](https://wiki.archlinux.org/index.php/Flameshot)
 - Screen locker: [i3lock-fancy-rapid](https://github.com/yvbbrjdr/i3lock-fancy-rapid)
+- PDF viewer: [llpp](https://wiki.archlinux.org/index.php/Llpp)
