@@ -30,9 +30,6 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
-# Default run a terminal emulator
-exec alacritty
-
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
@@ -150,7 +147,7 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
 #Lock, reboot and shutdown
-set $Locker i3lock && sleep 1
+set $Locker i3lock-fancy-rapid 17 3 && sleep 1
 
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
@@ -209,6 +206,8 @@ bar {
         font pango:Source Han Code JP, FontAwesome 8
         status_command SCRIPT_DIR=$HOME/.local/libexec/i3blocks i3blocks ic $HOME/.config/i3blocks/config
 }
+#For clander blocklet
+for_window [class="Yad"] floating enable
 
 #============[IM setup]===============
 exec --no-startup-id export GTK_IM_MODULE=ibus
@@ -220,5 +219,9 @@ exec --no-startup-id ibus-daemon --xim -d -r
 #Set wallpaper
 #exec --no-startup-id feh --bg-scale /home/abc/.config/i3/bgp.jpg
 
+# Default run a terminal emulator
+exec alacritty
+
 #Screenshot
 bindsym Print exec flameshot gui
+
