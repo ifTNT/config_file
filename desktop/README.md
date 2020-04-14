@@ -9,7 +9,7 @@ Config of desktop enviroment
 - Terminal Emulator: [alacritty](https://github.com/alacritty/alacritty)
 - App Launcher:
     - [rofi](https://github.com/davatorium/rofi)
-- Web Browser: [Google Chrome](https://wiki.archlinux.org/index.php/Xorg)
+- Web Browser: [Google Chrome](https://wiki.archlinux.org/index.php/Chromium)
 - File Browser & File Preview:
     - [Thunar](https://wiki.archlinux.org/index.php/Thunar)
     - [Ranger](https://github.com/ranger/ranger)

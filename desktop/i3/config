@@ -195,7 +195,7 @@ bindsym $mod+r mode "resize"
 bar {
         #status_command i3status -c $HOME/.config/i3status/config
         font pango:Source Han Code JP, FontAwesome 8
-        status_command SCRIPT_DIR=$HOME/.local/libexec/i3blocks i3blocks ic $HOME/.config/i3blocks/config
+        status_command SCRIPT_DIR=$HOME/.local/libexec/i3blocks i3blocks -c $HOME/.config/i3blocks/config
 }
 #For clander blocklet
 for_window [class="Yad"] floating enable
