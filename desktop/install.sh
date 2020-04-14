@@ -52,6 +52,8 @@ cp ./networkmanager-dmenu/* $HOME/.config/networkmanager-dmenu/
 mkdir -p /etc/sddm.conf.d/
 cp ./sddm/* /etc/sddm.conf.d/
 
+cp ./.xprofile $HOME/.xprofile
+
 # Replace the icon of fcitx-chewing
 sudo cp ./fcitx-chewing/chewing.png /usr/share/fcitx/imicon/chewing.png
 sudo cp ./fcitx-chewing/chewing.png /usr/share/fcitx/skin/dark/chewing.png
