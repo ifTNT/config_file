@@ -19,10 +19,10 @@ Config of desktop enviroment
     - python-chardet
 - Editor: [neovim](https://github.com/neovim/neovim)
 - Wallpaper Display: [feh](https://wiki.archlinux.org/index.php/feh)
-- Input Method:
-    - [iBus](https://wiki.archlinux.org/index.php/IBus)
-    - [ibus-rime](https://wiki.archlinux.org/index.php/Rime)
-    - [Iridium-Bopomofo](https://github.hsmw.workers.dev/andy0130tw/iridium-bpmf)
+- Input Method: [Reference](https://gist.github.com/tanyuan/c0d4ee15cf0c9c93da28cc1cf0ff87b3)
+    - [fcitx](https://wiki.archlinux.org/index.php/fcitx)
+    - [fcitx-chewing](https://github.com/fcitx/fcitx-chewing)
+    - fcitx-configtool
 - Font:
     - Icon: [ttf-font-awesome](https://www.archlinux.org/packages/community/any/ttf-font-awesome/)
     - Default font: [otf-source-han-code-jp](https://aur.archlinux.org/packages/otf-source-han-code-jp/)
@@ -30,3 +30,6 @@ Config of desktop enviroment
 - Screen Capture: [flameshot](https://wiki.archlinux.org/index.php/Flameshot)
 - Screen locker: [i3lock-fancy-rapid](https://github.com/yvbbrjdr/i3lock-fancy-rapid)
 - PDF viewer: [llpp](https://wiki.archlinux.org/index.php/Llpp)
+- Network Manager:
+    - [NetworkManager](https://wiki.archlinux.org/index.php/NetworkManager)
+    - [networkmanager-dmenu](https://github.com/firecat53/networkmanager-dmenu)
