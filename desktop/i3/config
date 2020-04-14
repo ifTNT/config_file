@@ -208,14 +208,17 @@ exec --no-startup-id export XMODIFIERS="@im=$IM"
 exec --no-startup-id export QT_IM_MODULE="$IM"
 #=====================================
 
-#Set wallpaper
+# Set wallpaper
 exec --no-startup-id feh --bg-scale $HOME/.config/wallpapers/h4ck3r.jpg
 
 # Default run a terminal emulator
 exec alacritty
 
-#Screenshot
+# Screenshot
 bindsym Print exec --no-startup-id flameshot gui
 
-#NetworkManager
+# NetworkManager
 bindsym $mod+Shift+n exec --no-startup-id networkmanager_dmenu
+
+# Set arandr to floating mode
+for_window [class="Arandr"] floating enable

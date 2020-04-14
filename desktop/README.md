@@ -9,15 +9,17 @@ Config of desktop enviroment
 - Terminal Emulator: [alacritty](https://github.com/alacritty/alacritty)
 - App Launcher:
     - [rofi](https://github.com/davatorium/rofi)
-    - [xlunch](http://xlunch.org/)
 - Web Browser: [Google Chrome](https://wiki.archlinux.org/index.php/Xorg)
 - File Browser & File Preview:
+    - [Thunar](https://wiki.archlinux.org/index.php/Thunar)
     - [Ranger](https://github.com/ranger/ranger)
     - highlight
     - mediainfo
     - poppler
     - python-chardet
-- Editor: [neovim](https://github.com/neovim/neovim)
+- Editor:
+    - [neovim](https://github.com/neovim/neovim)
+    - VSCode
 - Wallpaper Display: [feh](https://wiki.archlinux.org/index.php/feh)
 - Input Method: [Reference](https://gist.github.com/tanyuan/c0d4ee15cf0c9c93da28cc1cf0ff87b3)
     - [fcitx](https://wiki.archlinux.org/index.php/fcitx)
@@ -28,8 +30,14 @@ Config of desktop enviroment
     - Default font: [otf-source-han-code-jp](https://aur.archlinux.org/packages/otf-source-han-code-jp/)
 - Status Bar: [i3blocks](https://vivien.github.io/i3blocks/) [i3blocks-contrib](https://github.com/vivien/i3blocks-contrib)
 - Screen Capture: [flameshot](https://wiki.archlinux.org/index.php/Flameshot)
-- Screen locker: [i3lock-fancy-rapid](https://github.com/yvbbrjdr/i3lock-fancy-rapid)
+- Screen locker: 
+    - [i3lock-fancy-rapid](https://github.com/yvbbrjdr/i3lock-fancy-rapid)
+    - xss-lock
 - PDF viewer: [llpp](https://wiki.archlinux.org/index.php/Llpp)
 - Network Manager:
     - [NetworkManager](https://wiki.archlinux.org/index.php/NetworkManager)
     - [networkmanager-dmenu](https://github.com/firecat53/networkmanager-dmenu)
+- Multiple Screen Layout Management:
+    - xrandr
+    - arandr
+- Task manager: [glances](https://github.com/nicolargo/glances)
