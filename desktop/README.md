@@ -41,3 +41,13 @@ Config of desktop enviroment
     - xrandr
     - arandr
 - Task manager: [glances](https://github.com/nicolargo/glances)
+
+## Installation
+```
+bash install.sh
+```
+
+## Modified shortcuts of i3wm
+- Alt+Shift+s: System conrol mode.
+- Alt+Shift+n: Network setting.
+- Pirnt: Capture the screen.
