@@ -28,6 +28,9 @@ Config of desktop enviroment
 - Font:
     - Icon: [ttf-font-awesome](https://www.archlinux.org/packages/community/any/ttf-font-awesome/)
     - Default font: [otf-source-han-code-jp](https://aur.archlinux.org/packages/otf-source-han-code-jp/)
+    - 標楷體:
+        - [ttf-tw](https://aur.archlinux.org/packages/ttf-tw/)
+        - [ttf-arphic-ukai](https://www.archlinux.org/packages/community/any/ttf-arphic-ukai/)
 - Status Bar: [i3blocks](https://vivien.github.io/i3blocks/) [i3blocks-contrib](https://github.com/vivien/i3blocks-contrib)
 - Screen Capture: [flameshot](https://wiki.archlinux.org/index.php/Flameshot)
 - Screen locker: 

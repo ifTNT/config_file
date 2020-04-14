@@ -6,8 +6,11 @@
 sudo pacman -S git xorg-server sddm i3-wm alacritty rofi i3blocks \
      thunar ranger highlight mediainfo poppler python-chardet neovim feh \
      fcitx fcitx-chewing fcitx-configtool \
-     ttf-font-awesome xss-lock xorg-xrandr arandr networkmanager\
+     ttf-font-awesome ttf-arphic-ukai xss-lock xorg-xrandr arandr networkmanager\
      code llpp glances flameshot
+
+# Update font cache
+fc-cache -fv
 
 # Install packages from AUR
 mkdir -p $HOME/aur/
@@ -24,6 +27,7 @@ install_aur google-chrome
 install_aur otf-source-han-code-jp
 install_aur i3lock-fancy-rapid
 install_aur networkmanager-dmenu
+install_aur ttf-tw
 
 #Install i3blocks-contrib
 git clone https://github.com/vivien/i3blocks-contrib.git
@@ -53,6 +57,9 @@ mkdir -p /etc/sddm.conf.d/
 cp ./sddm/* /etc/sddm.conf.d/
 
 cp ./.xprofile $HOME/.xprofile
+
+mkdir -p $HOME/.fonts.conf.d/
+cp ./30-cjk-aliases.conf $HOME/.fonts.conf.d/
 
 # Replace the icon of fcitx-chewing
 sudo cp ./fcitx-chewing/chewing.png /usr/share/fcitx/imicon/chewing.png
