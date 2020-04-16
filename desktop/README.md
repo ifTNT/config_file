@@ -28,7 +28,8 @@ Config of desktop enviroment
 - Font:
     - Icon: [ttf-font-awesome-4](https://aur.archlinux.org/packages/ttf-font-awesome-4/)
     - Default font: [otf-source-han-code-jp](https://aur.archlinux.org/packages/otf-source-han-code-jp/)
-    - Noto Font
+    - ttf-noto-fonts ttf-noto-fonts-cjk: Noto Font
+    - ttf-liberation : fix some issue related to pdf viewer in chrome
     - 標楷體:
         - [ttf-tw](https://aur.archlinux.org/packages/ttf-tw/)
         - [ttf-arphic-ukai](https://www.archlinux.org/packages/community/any/ttf-arphic-ukai/)

@@ -6,7 +6,7 @@
 sudo pacman -S git xorg-server sddm i3-wm alacritty rofi i3blocks \
      thunar ranger highlight mediainfo poppler python-chardet neovim feh \
      fcitx fcitx-chewing fcitx-configtool \
-     ttf-arphic-ukai noto-fonts noto-fonts-cjk xss-lock xorg-xrandr arandr networkmanager\
+     ttf-liberation ttf-arphic-ukai noto-fonts noto-fonts-cjk xss-lock xorg-xrandr arandr networkmanager\
      code llpp glances flameshot
 
 # Update font cache
