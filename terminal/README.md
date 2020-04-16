@@ -6,7 +6,7 @@ Config file of Terminal Enviroment
     - [zsh](https://wiki.archlinux.org/index.php/zsh)
     - [zsh-complerions](https://www.archlinux.org/packages/community/any/zsh-completions/)
     - [oh-my-zsh](https://aur.archlinux.org/packages/oh-my-zsh-git/)
-    - theme: [typewritten](https://github.com/reobin/typewritten)
+    - theme: custom theme based on ys
 - Multiplexer: [tmux](https://wiki.archlinux.org/index.php/Tmux)
 - Console Communication: [screen](https://wiki.archlinux.org/index.php/GNU_Screen)
 - Editor:
