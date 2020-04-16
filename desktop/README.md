@@ -44,6 +44,7 @@ Config of desktop enviroment
     - xrandr
     - arandr
 - Task manager: [glances](https://github.com/nicolargo/glances)
+- TODO List: [go-for-it](https://aur.archlinux.org/packages/go-for-it/)
 
 ## Installation
 ```

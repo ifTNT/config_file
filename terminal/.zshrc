@@ -101,5 +101,19 @@ alias cat="bat"
 alias vim="nvim"
 alias objdup="objdump -M intel"
 
+# Helper functions
+# Install packages from AUR
+function iaur(){
+    origPath=$(pwd)
+    mkdir -p $HOME/aur/
+    cd $HOME/aur/
+    echo Installing AUR $1
+    git clone "https://aur.archlinux.org/$1.git"
+    cd $1
+    makepkg -si
+    cd $orgiPath
+}
+
+
 # Set up Node Version Manager
 source /usr/share/nvm/init-nvm.sh

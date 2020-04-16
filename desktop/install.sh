@@ -28,6 +28,7 @@ install_aur otf-source-han-code-jp
 install_aur i3lock-fancy-rapid
 install_aur networkmanager-dmenu
 install_aur ttf-tw
+install_aur go-for-it
 
 #Install i3blocks-contrib
 git clone https://github.com/vivien/i3blocks-contrib.git
