@@ -3,24 +3,27 @@
 # This shell script is for Arch Linux
 
 # install packages
-sudo pacman -S zsh zsh-complerions \
+sudo pacman -S zsh zsh-completions \
 	       tmux screen ranger bat \
 	       networkmanager glances \
-	       man-db man-pages \
+	       man-db man-pages neovim sshd \
        	       docker docker-compose
 
 # Install packages from AUR
 mkdir -p $HOME/aur/
 function install_aur(){
+    orgiPath=$(pwd)
     cd $HOME/aur/
     echo Installing AUR $1
     git clone "https://aur.archlinux.org/$1.git"
     cd $1
     makepkg -si
+    cd $orgiPath
 }
 
 install_aur oh-my-zsh-git
 install_aur nvm
+
 
 # Change shell for current user
 chsh -s /bin/zsh $USER 
@@ -33,9 +36,15 @@ sudo usermod -a -G docker $USER
 # Enable daemon
 sudo systemctl enable NetworkManager
 sudo systemctl enable docker
+sudo systemctl enable sshd
 sudo systemctl start NetworkManager
 sudo systemctl start docker
+sudo systemctl start sshd
 
 # Copy configuration file
 cp ./.zshrc $HOME/.zshrc
-cp ./zsh-theme/ys.custom.zsh-theme /usr/share/oh-my-zsh/custom
+sudo cp ./zsh-theme/ys.custom.zsh-theme /usr/share/oh-my-zsh/custom
+
+# Set git aliases
+git config --global alias.st status
+git config --global alias.ci commit

@@ -26,8 +26,9 @@ Config of desktop enviroment
     - [fcitx-chewing](https://github.com/fcitx/fcitx-chewing)
     - fcitx-configtool
 - Font:
-    - Icon: [ttf-font-awesome](https://www.archlinux.org/packages/community/any/ttf-font-awesome/)
+    - Icon: [ttf-font-awesome-4](https://aur.archlinux.org/packages/ttf-font-awesome-4/)
     - Default font: [otf-source-han-code-jp](https://aur.archlinux.org/packages/otf-source-han-code-jp/)
+    - Noto Font
     - 標楷體:
         - [ttf-tw](https://aur.archlinux.org/packages/ttf-tw/)
         - [ttf-arphic-ukai](https://www.archlinux.org/packages/community/any/ttf-arphic-ukai/)
