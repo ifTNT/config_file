@@ -47,30 +47,41 @@ sudo pacman -S sysstate #Dependency of cpu_usage
 cd $orgiPath
 
 # Copy config file
+# COnfiguration of i3
 mkdir -p $HOME/.config/i3
 cp ./i3/* $HOME/.config/i3
 
+# Configuration of i3blocks
 mkdir -p $HOME/.config/i3blocks
 cp ./i3blocks/* $HOME/.config/i3blocks/
 
+# Configuration of alacritty
 mkdir -p $HOME/.config/alacritty
 cp ./alacritty/* $HOME/.config/alacritty/
 
+# Configuration of rofi
 mkdir -p $HOME/.config/rofi
 cp ./rofi/* $HOME/.config/rofi/
 
+# Configuration of networkmanager-dmenu
 mkdir -p $HOME/.config/networkmanager-dmenu
 cp ./networkmanager-dmenu/* $HOME/.config/networkmanager-dmenu/
 
+# Configuration of SDDM
 sudo mkdir -p /etc/sddm.conf.d/
 sudo cp ./sddm/* /etc/sddm.conf.d/
 
+# Set the input method
 cp ./.xprofile $HOME/.xprofile
 
+# Copy the font alias
 mkdir -p $HOME/.fonts.conf.d/
 cp ./30-cjk-aliases.conf $HOME/.fonts.conf.d/
 
+# Grant the permission of brightness adjustment to video group
 sudo cp ./backlight.rules /etc/rules.d/backlight.rules
+# Add current user to video group in order to adjuest brightness
+sudo usermod --append -G video $USER
 
 # Replace the icon of fcitx-chewing
 sudo cp ./fcitx-chewing/chewing.png /usr/share/fcitx/imicon/chewing.png
