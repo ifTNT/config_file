@@ -33,6 +33,7 @@ install_aur i3lock-fancy-rapid-git
 install_aur networkmanager-dmenu-git
 install_aur ttf-tw
 install_aur go-for-it
+install_aur brillo
 
 #Install i3blocks-contrib
 orgiPath=$(pwd)
@@ -68,6 +69,8 @@ cp ./.xprofile $HOME/.xprofile
 
 mkdir -p $HOME/.fonts.conf.d/
 cp ./30-cjk-aliases.conf $HOME/.fonts.conf.d/
+
+sudo cp ./backlight.rules /etc/rules.d/backlight.rules
 
 # Replace the icon of fcitx-chewing
 sudo cp ./fcitx-chewing/chewing.png /usr/share/fcitx/imicon/chewing.png
