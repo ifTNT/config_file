@@ -100,6 +100,7 @@ source $ZSH/oh-my-zsh.sh
 alias cat="bat"
 alias vim="nvim"
 alias objdup="objdump -M intel"
+alias ll="ls -alh"
 
 # Helper functions
 # Install packages from AUR
