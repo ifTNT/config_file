@@ -50,7 +50,7 @@ Config of desktop enviroment
 - Audio:
     - [PulseAudio](https://wiki.archlinux.org/index.php/PulseAudio)
     - [pavucontrol](https://www.archlinux.org/packages/extra/x86_64/pavucontrol/)
-- Backlight Adjuestment: [billo](https://gitlab.com/cameronnemo/brillo/-/tree/master)
+- Backlight Adjuestment: [brillo](https://gitlab.com/cameronnemo/brillo/-/tree/master)
 
 ## Installation
 ```

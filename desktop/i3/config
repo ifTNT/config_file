@@ -220,3 +220,7 @@ for_window [class="Arandr"] floating enable
 bindsym XF86AudioRaiseVolume exec amixer -q -D pulse sset Master 5%+ && pkill -RTMIN+10 i3blocks 
 bindsym XF86AudioLowerVolume exec amixer -q -D pulse sset Master 5%- && pkill -RTMIN+10 i3blocks
 bindsym XF86AudioMute exec amixer -q -D pulse sset Master toggle && pkill -RTMIN+10 i3blocks
+
+# adjuest birghtness
+bindsym XF86MonBrightnessUp exec --no-startup-id brillo -A 10
+bindsym XF86MonBrightnessDown exec --no-startup-id brillo -U 10
