@@ -47,6 +47,9 @@ Config of desktop enviroment
     - arandr
 - Task manager: [glances](https://github.com/nicolargo/glances)
 - TODO List: [go-for-it](https://aur.archlinux.org/packages/go-for-it/)
+- Audio:
+    - [PulseAudio](https://wiki.archlinux.org/index.php/PulseAudio)
+    - [pavucontrol](https://www.archlinux.org/packages/extra/x86_64/pavucontrol/)
 
 ## Installation
 ```

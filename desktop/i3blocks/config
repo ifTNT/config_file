@@ -132,11 +132,12 @@ WIDTH=220
 # See the script for details.
 
 [volume]
-#label=♪ 
-label=VOL 
+label=♪ 
+#label=VOL 
 interval=once
 signal=10
-#STEP=5%
+STEP=5%
+MIXER=pulse
 
 # Generic media player support
 #
