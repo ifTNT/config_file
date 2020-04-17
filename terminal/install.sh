@@ -6,7 +6,7 @@
 sudo pacman -S zsh zsh-completions \
 	       tmux screen ranger bat \
 	       networkmanager glances \
-	       man-db man-pages neovim sshd \
+	       man-db man-pages neovim openssh \
        	       docker docker-compose
 
 # Install packages from AUR
@@ -26,7 +26,7 @@ install_aur nvm
 
 
 # Change shell for current user
-chsh -s /bin/zsh $USER 
+chsh -s /bin/zsh $USER
 
 # Add current user to wheel and docker
 sudo groupadd docker
@@ -44,6 +44,8 @@ sudo systemctl start sshd
 # Copy configuration file
 cp ./.zshrc $HOME/.zshrc
 sudo cp ./zsh-theme/ys.custom.zsh-theme /usr/share/oh-my-zsh/custom
+sudo rmmod pcspkr
+sudo cp ./modprobe_blacklist /etc/modprobe.d/blacklist
 
 # Set git aliases
 git config --global alias.st status
