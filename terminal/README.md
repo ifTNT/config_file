@@ -23,3 +23,4 @@ Config file of Terminal Enviroment
     - Python Developing: [jupyter/scipy-notebook](https://hub.docker.com/r/jupyter/scipy-notebook)
 - Nodejs
     - [nvm](https://aur.archlinux.org/packages/nvm/)
+- Firewall: [ufw](https://wiki.archlinux.org/index.php/Uncomplicated_Firewall)

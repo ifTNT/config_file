@@ -6,8 +6,8 @@
 sudo pacman -S zsh zsh-completions \
 	       tmux screen ranger bat \
 	       networkmanager glances \
-	       man-db man-pages neovim openssh \
-       	       docker docker-compose
+	       man-db man-pages neovim openssh ufw \
+       	   docker docker-compose
 
 # Install packages from AUR
 mkdir -p $HOME/aur/
@@ -37,9 +37,11 @@ sudo usermod -a -G docker $USER
 sudo systemctl enable NetworkManager
 sudo systemctl enable docker
 sudo systemctl enable sshd
+sudo systemctl enable ufw
 sudo systemctl start NetworkManager
 sudo systemctl start docker
 sudo systemctl start sshd
+sudo systemctl start ufw
 
 # Copy configuration file
 cp ./.zshrc $HOME/.zshrc
