@@ -20,6 +20,8 @@ Config of desktop enviroment
 - Editor:
     - [neovim](https://github.com/neovim/neovim)
     - VSCode
+    - Markdown: marker
+    - Latex: texmaker texlive-core
 - Wallpaper Display: [feh](https://wiki.archlinux.org/index.php/feh)
 - Input Method: [Reference](https://gist.github.com/tanyuan/c0d4ee15cf0c9c93da28cc1cf0ff87b3)
     - [fcitx](https://wiki.archlinux.org/index.php/fcitx)
