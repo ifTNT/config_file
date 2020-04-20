@@ -122,8 +122,10 @@ interval=1
 LABEL= 
 DATEFMT=+%H:%M:%S
 # SHORTFMT=+%H:%M:%S
-HEIGHT=180
-WIDTH=220
+HEIGHT=200
+WIDTH=300
+OFFSET_X=-65
+OFFSET_Y=-35
 
 # Volume indicator
 #

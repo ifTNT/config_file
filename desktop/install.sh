@@ -44,6 +44,10 @@ make
 make install #Install to ~/.local/libexec/i3blocks
 sudo pacman -S acpi #Dependency of battery2
 sudo pacman -S sysstate #Dependency of cpu_usage
+sudo pacman -S yad xdotool #Dependency of clander
+cd $orgiPath
+cp ./i3blocks/calender $HOME/.local/libexec/i3blocks/clander
+chmod +x $HOME/.local/libexec/i3blocks/clander
 cd $orgiPath
 
 # Copy config file
@@ -53,7 +57,7 @@ cp ./i3/* $HOME/.config/i3
 
 # Configuration of i3blocks
 mkdir -p $HOME/.config/i3blocks
-cp ./i3blocks/* $HOME/.config/i3blocks/
+cp ./i3blocks/config $HOME/.config/i3blocks/
 
 # Configuration of alacritty
 mkdir -p $HOME/.config/alacritty
