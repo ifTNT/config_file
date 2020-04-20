@@ -47,7 +47,7 @@ sudo systemctl start ufw
 cp ./.zshrc $HOME/.zshrc
 sudo cp ./zsh-theme/ys.custom.zsh-theme /usr/share/oh-my-zsh/custom
 sudo rmmod pcspkr
-sudo cp ./modprobe_blacklist /etc/modprobe.d/blacklist
+sudo cp ./modprobe_blacklist /etc/modprobe.d/nobeep.conf
 
 # Set git aliases
 git config --global alias.st status
