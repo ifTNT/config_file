@@ -5,7 +5,7 @@
 # install packages
 sudo pacman -S zsh zsh-completions \
 	       tmux screen ranger bat \
-	       networkmanager glances \
+	       networkmanager glances udisks2 \
 	       man-db man-pages neovim openssh ufw \
        	   docker docker-compose
 

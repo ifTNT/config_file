@@ -24,3 +24,4 @@ Config file of Terminal Enviroment
 - Nodejs
     - [nvm](https://aur.archlinux.org/packages/nvm/)
 - Firewall: [ufw](https://wiki.archlinux.org/index.php/Uncomplicated_Firewall)
+- Removal storage management: [udisks2](https://wiki.archlinux.org/index.php/Udisks)

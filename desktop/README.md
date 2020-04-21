@@ -53,6 +53,7 @@ Config of desktop enviroment
     - [PulseAudio](https://wiki.archlinux.org/index.php/PulseAudio)
     - [pavucontrol](https://www.archlinux.org/packages/extra/x86_64/pavucontrol/)
 - Backlight Adjuestment: [brillo](https://gitlab.com/cameronnemo/brillo/-/tree/master)
+- Auto mount removal storage: [udiskie](https://github.com/coldfix/udiskie)
 
 ## Installation
 ```
