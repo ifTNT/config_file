@@ -4,7 +4,7 @@
 
 # Install package from offical repository
 sudo pacman -S git xorg-server sddm i3-wm alacritty rofi i3blocks \
-     thunar ranger highlight mediainfo poppler python-chardet neovim feh \
+     thunar tumbler ranger highlight mediainfo poppler python-chardet xarchiver neovim feh \
      fcitx fcitx-chewing fcitx-configtool \
      ttf-liberation ttf-arphic-ukai noto-fonts noto-fonts-cjk xss-lock xorg-xrandr arandr networkmanager\
      pulseaudio pulseaudio-alsa alsa-utils pavucontrol \
@@ -34,6 +34,7 @@ install_aur networkmanager-dmenu-git
 install_aur ttf-tw
 install_aur go-for-it
 install_aur brillo
+install_aur autotiling
 
 #Install i3blocks-contrib
 orgiPath=$(pwd)

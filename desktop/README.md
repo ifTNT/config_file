@@ -12,6 +12,7 @@ Config of desktop enviroment
 - Web Browser: [Google Chrome](https://wiki.archlinux.org/index.php/Chromium)
 - File Browser & File Preview:
     - [Thunar](https://wiki.archlinux.org/index.php/Thunar)
+    - [tumbler](https://www.archlinux.org/packages/extra/x86_64/tumbler/)
     - [Ranger](https://github.com/ranger/ranger)
     - highlight
     - mediainfo
@@ -41,6 +42,7 @@ Config of desktop enviroment
     - [i3lock-fancy-rapid](https://github.com/yvbbrjdr/i3lock-fancy-rapid)
     - xss-lock
 - PDF viewer: [llpp](https://wiki.archlinux.org/index.php/Llpp)
+- Archive Manager: [xarchiver](https://www.archlinux.org/packages/community/x86_64/xarchiver/)
 - Network Manager:
     - [NetworkManager](https://wiki.archlinux.org/index.php/NetworkManager)
     - [networkmanager-dmenu](https://github.com/firecat53/networkmanager-dmenu)
