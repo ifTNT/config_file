@@ -127,18 +127,21 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
 #Lock, reboot and shutdown
-set $Locker i3lock-fancy-rapid 17 3 && sleep 1
+set $Locker i3lock-fancy-rapid 17 3
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- $Locker
+
+# xss-lock subscribes to the systemd-events suspend, hibernate, and lock-session.
+#exec --no-startup-id xss-lock --transfer-sleep-lock -- $Locker
+exec --no-startup-id xss-lock -- $Locker
 
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
-    bindsym l exec --no-startup-id $Locker, mode "default"
+    bindsym l exec --no-startup-id $Locker && sleep 1, mode "default"
     bindsym e exec --no-startup-id i3-msg exit, mode "default"
-    bindsym s exec --no-startup-id $Locker && systemctl suspend, mode "default"
-    bindsym h exec --no-startup-id $Locker && systemctl hibernate, mode "default"
+    bindsym s exec --no-startup-id systemctl suspend, mode "default"
+    bindsym h exec --no-startup-id systemctl hibernate, mode "default"
     bindsym r exec --no-startup-id systemctl reboot, mode "default"
     bindsym Shift+s exec --no-startup-id systemctl poweroff -i, mode "default"  
 
@@ -182,6 +185,22 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+
+## Manual management of external displays
+# Set the shortcuts and what they do
+set $mode_display Ext Screen (h) Home, (s) Standalond, (u) Unified (a) Launch Arandr
+mode "$mode_display" {
+    bindsym h exec --no-startup-id sh $HOME/.screenlayout/home.sh, mode "default"
+    bindsym s exec --no-startup-id sh $HOME/.screenlayout/standalone.sh, mode "default"
+    bindsym u exec --no-startup-id sh $HOME/.screenlayout/unified.sh, mode "default"
+    bindsym a exec arandr, mode "default"
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+# Declare here the shortcut to bring the display selection menu
+bindsym $mod+Shift+x mode "$mode_display"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)

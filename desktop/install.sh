@@ -82,6 +82,10 @@ cp ./.xprofile $HOME/.xprofile
 mkdir -p $HOME/.fonts.conf.d/
 cp ./30-cjk-aliases.conf $HOME/.fonts.conf.d/
 
+# Copy the screen layout configuration
+mkdir -p $HOME/.screenlayout/
+cp -r ./.screenlayout $HOME/.screenlayout
+
 # Grant the permission of brightness adjustment to video group
 sudo cp ./backlight.rules /etc/rules.d/backlight.rules
 # Add current user to video group in order to adjuest brightness
