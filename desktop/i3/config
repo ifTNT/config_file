@@ -25,6 +25,12 @@ font pango:Source Han Code JP 8
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# Set default layout for browser
+for_window [window_role ="browser"] layout tabbed
+
+# Hide border in the edge of screen
+hide_edge_borders smart
+
 # start a terminal
 bindsym $mod+Return exec alacritty
 
@@ -223,7 +229,8 @@ exec --no-startup-id export QT_IM_MODULE="$IM"
 # Set wallpaper
 exec --no-startup-id feh --bg-center $HOME/.config/wallpapers/h4ck3r.jpg
 
-# Default run a terminal emulator
+# Default run a terminal emulator and a browser
+exec firefox
 exec alacritty
 
 # Screenshot
@@ -246,3 +253,6 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brillo -U 10
 
 # Auto mount removal devices
 exec --no-startup-id udiskie --automount --no-tray --no-notify 
+
+# Enable automatically switch horizontal/vertical window split orientation
+exec --no-startup-id autotiling
