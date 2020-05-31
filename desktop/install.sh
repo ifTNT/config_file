@@ -79,9 +79,17 @@ sudo cp ./sddm/* /etc/sddm.conf.d/
 # Set the input method
 cp ./.xprofile $HOME/.xprofile
 
-# Copy the font alias
-mkdir -p $HOME/.fonts.conf.d/
-cp ./30-cjk-aliases.conf $HOME/.fonts.conf.d/
+# Copy the fonts
+mkdir -p $HOME/.local/fonts/
+cp ./fonts/標楷體.ttc $HOME/.local/fonts
+
+# Copy the font configurations
+sudo cp ./fonts/30-cjk-aliases.conf /etc/fonts/conf.d/
+sudo cp ./fonts/40-nonlatin.conf /etc/fonts/conf.d/
+sudo cp ./fonts/60-latin.conf /etc/fonts/conf.d/
+
+# Update font cache
+fc-cache -fv
 
 # Copy the screen layout configuration
 mkdir -p $HOME/.screenlayout/

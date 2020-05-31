@@ -30,12 +30,14 @@ Config of desktop enviroment
     - fcitx-configtool
 - Font:
     - Icon: [ttf-font-awesome-4](https://aur.archlinux.org/packages/ttf-font-awesome-4/)
-    - Default font: [otf-source-han-code-jp](https://aur.archlinux.org/packages/otf-source-han-code-jp/)
-    - ttf-noto-fonts ttf-noto-fonts-cjk: Noto Font
-    - ttf-liberation : fix some issue related to pdf viewer in chrome
-    - 標楷體:
-        - [ttf-tw](https://aur.archlinux.org/packages/ttf-tw/)
-        - [ttf-arphic-ukai](https://www.archlinux.org/packages/community/any/ttf-arphic-ukai/)
+    - Default font:
+        - Sans: ttf-noto-fonts, ttf-noto-fonts-cjk
+        - Serif
+            - ttf-liberation : fix some issue related to pdf viewer in chrome
+            - 標楷體:
+                - [ttf-tw](https://aur.archlinux.org/packages/ttf-tw/)
+                - [ttf-arphic-ukai](https://www.archlinux.org/packages/community/any/ttf-arphic-ukai/)
+        - Monospace: [otf-source-han-code-jp](https://aur.archlinux.org/packages/otf-source-han-code-jp/)
 - Status Bar: [i3blocks](https://vivien.github.io/i3blocks/) [i3blocks-contrib](https://github.com/vivien/i3blocks-contrib)
 - Screen Capture: [flameshot](https://wiki.archlinux.org/index.php/Flameshot)
 - Screen locker: 
