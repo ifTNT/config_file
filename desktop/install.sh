@@ -8,7 +8,8 @@ sudo pacman -S git xorg-server sddm i3-wm alacritty rofi i3blocks \
      fcitx fcitx-chewing fcitx-configtool \
      ttf-liberation ttf-arphic-ukai noto-fonts noto-fonts-cjk xss-lock xorg-xrandr arandr networkmanager\
      pulseaudio pulseaudio-alsa alsa-utils pavucontrol \
-     code llpp glances flameshot udiskie
+     code llpp glances flameshot udiskie \
+     gthumb leafpad
 
 # Update font cache
 fc-cache -fv
