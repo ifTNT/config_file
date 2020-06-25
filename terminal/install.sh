@@ -6,7 +6,7 @@
 sudo pacman -S zsh zsh-completions \
 	       tmux screen ranger bat \
 	       networkmanager glances udisks2 \
-	       man-db man-pages neovim openssh ufw \
+	       man-db man-pages neovim openssh ufw tldr jq fd\
        	   docker docker-compose
 
 # Install packages from AUR

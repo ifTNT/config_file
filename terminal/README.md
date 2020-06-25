@@ -25,3 +25,6 @@ Config file of Terminal Enviroment
     - [nvm](https://aur.archlinux.org/packages/nvm/)
 - Firewall: [ufw](https://wiki.archlinux.org/index.php/Uncomplicated_Firewall)
 - Removal storage management: [udisks2](https://wiki.archlinux.org/index.php/Udisks)
+- Alternative to find: fd
+- Alternative to man: tldr
+- Grep for JSON: jq
