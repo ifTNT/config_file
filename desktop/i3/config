@@ -256,3 +256,6 @@ exec --no-startup-id udiskie --automount --no-tray --no-notify
 
 # Enable automatically switch horizontal/vertical window split orientation
 exec --no-startup-id autotiling
+
+# Bluetooth manager
+bindsym $mod+Shift+b exec --no-startup-id rofi-bluetooth

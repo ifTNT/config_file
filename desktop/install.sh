@@ -7,7 +7,7 @@ sudo pacman -S git xorg-server sddm i3-wm alacritty rofi i3blocks \
      thunar tumbler ranger highlight mediainfo poppler python-chardet xarchiver neovim feh \
      fcitx fcitx-chewing fcitx-configtool \
      ttf-liberation ttf-arphic-ukai noto-fonts noto-fonts-cjk xss-lock xorg-xrandr arandr networkmanager\
-     pulseaudio pulseaudio-alsa alsa-utils pavucontrol \
+     pulseaudio pulseaudio-alsa alsa-utils pavucontrol bluez-utils\
      code llpp glances flameshot udiskie \
      gthumb leafpad
 
@@ -36,6 +36,7 @@ install_aur ttf-tw
 install_aur go-for-it
 install_aur brillo
 install_aur autotiling
+install_aur rofi-bluetooth-git
 
 #Install i3blocks-contrib
 orgiPath=$(pwd)

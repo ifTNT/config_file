@@ -50,6 +50,8 @@ Config of desktop enviroment
 - Network Manager:
     - [NetworkManager](https://wiki.archlinux.org/index.php/NetworkManager)
     - [networkmanager-dmenu](https://github.com/firecat53/networkmanager-dmenu)
+- Bluetooth Manager:
+    - [rofi-bluetooth](https://github.com/ClydeDroid/rofi-bluetooth)
 - Multiple Screen Layout Management:
     - xrandr
     - arandr
