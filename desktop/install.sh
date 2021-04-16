@@ -4,7 +4,8 @@
 
 # Install package from offical repository
 sudo pacman -S git xorg-server sddm i3-wm alacritty rofi i3blocks \
-     thunar tumbler ranger highlight mediainfo poppler python-chardet xarchiver neovim feh \
+     thunar thunar-archive-plugin thunar-volman tumbler ranger highlight mediainfo poppler python-chardet xarchiver neovim feh \
+	 gvfs gvfs-mtp gvfs-ntp \
      fcitx fcitx-chewing fcitx-configtool \
      ttf-liberation ttf-arphic-ukai noto-fonts noto-fonts-cjk xss-lock xorg-xrandr arandr networkmanager\
      pulseaudio pulseaudio-alsa alsa-utils pavucontrol bluez-utils\

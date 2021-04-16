@@ -257,5 +257,8 @@ exec --no-startup-id udiskie --automount --no-tray --no-notify
 # Enable automatically switch horizontal/vertical window split orientation
 exec --no-startup-id autotiling
 
+# Daemon of Thunar for automatic mounting removable devices
+exec --no-startup-id thunar --daemon
+
 # Bluetooth manager
 bindsym $mod+Shift+b exec --no-startup-id rofi-bluetooth
