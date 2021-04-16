@@ -29,6 +29,18 @@ command=$SCRIPT_DIR/$BLOCK_NAME
 separator_block_width=15
 markup=none
 
+# Clander
+[calendar]
+interval=1
+LABEL= 
+DATEFMT=+%H:%M:%S
+# SHORTFMT=+%H:%M:%S
+HEIGHT=200
+WIDTH=300
+OFFSET_X=-65
+OFFSET_Y=-35
+
+
 # Memory usage
 #
 # The type defaults to "mem" if the instance is not specified.
@@ -66,7 +78,7 @@ interval=30
 [iface]
 #IFACE=wlan0
 color=#00FF00
-interval=10
+interval=5
 separator=false
 
 [wifi]
@@ -116,15 +128,6 @@ interval=30
 #command=date '+%Y-%m-%d %H:%M %a '
 #interval=5
 
-# Clander
-[calendar]
-interval=1
-LABEL= 
-DATEFMT=+%H:%M:%S
-# SHORTFMT=+%H:%M:%S
-HEIGHT=180
-WIDTH=220
-
 # Volume indicator
 #
 # The first parameter sets the step (and units to display)
@@ -132,11 +135,12 @@ WIDTH=220
 # See the script for details.
 
 [volume]
-#label=♪ 
-label=VOL 
+label=♪ 
+#label=VOL 
 interval=once
 signal=10
-#STEP=5%
+STEP=5%
+MIXER=pulse
 
 # Generic media player support
 #

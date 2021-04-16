@@ -1,0 +1,2 @@
+#Disable loud and annoying pcspker
+blacklist pcspkr
