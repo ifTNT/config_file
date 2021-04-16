@@ -20,6 +20,15 @@ Config of desktop enviroment
 - Editor:
     - [neovim](https://github.com/neovim/neovim)
     - VSCode
+    - Extenstions of VSCode:
+        - Remote – Containers
+        - Path Intellisence
+        - Live Server
+        - Prettier
+        - Bracket Pair Colorizer 2
+        - GitLens
+        - Neo Vim
+        - Setting Sync
 - Wallpaper Display: [feh](https://wiki.archlinux.org/index.php/feh)
 - Input Method: [Reference](https://gist.github.com/tanyuan/c0d4ee15cf0c9c93da28cc1cf0ff87b3)
     - [fcitx](https://wiki.archlinux.org/index.php/fcitx)
