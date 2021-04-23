@@ -7,8 +7,9 @@ sudo pacman -S git xorg-server sddm i3-wm alacritty rofi i3blocks \
      thunar thunar-archive-plugin thunar-volman tumbler ranger highlight mediainfo poppler python-chardet xarchiver neovim feh \
 	 gvfs gvfs-mtp gvfs-ntp \
      fcitx fcitx-chewing fcitx-configtool \
-     ttf-liberation ttf-arphic-ukai noto-fonts noto-fonts-cjk xss-lock xorg-xrandr arandr networkmanager\
-     pulseaudio pulseaudio-alsa alsa-utils pavucontrol bluez-utils\
+     ttf-ubuntu-font-family ttf-liberation ttf-arphic-ukai noto-fonts noto-fonts-cjk \
+     xss-lock xorg-xrandr arandr networkmanager \
+     pulseaudio pulseaudio-alsa alsa-utils pavucontrol bluez-utils \
      code llpp glances flameshot udiskie \
      gthumb leafpad
 
@@ -30,6 +31,7 @@ function install_aur(){
 install_aur archlinux-themes-sddm
 install_aur google-chrome
 install_aur otf-source-han-code-jp
+install_aur ttf-ms-win10-zh_tw
 install_aur ttf-font-awesome-4
 install_aur i3lock-fancy-rapid-git
 install_aur networkmanager-dmenu-git
@@ -90,6 +92,8 @@ cp ./fonts/標楷體.ttc $HOME/.local/fonts
 sudo cp ./fonts/30-cjk-aliases.conf /etc/fonts/conf.d/
 sudo cp ./fonts/40-nonlatin.conf /etc/fonts/conf.d/
 sudo cp ./fonts/60-latin.conf /etc/fonts/conf.d/
+mkdir -p $HOME/.config/fontconfig
+cp ./fonts/fonts.conf $HOME/.config/fontconfig/
 
 # Update font cache
 fc-cache -fv
